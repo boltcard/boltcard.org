@@ -732,6 +732,10 @@ nav.fixed-top .nav-item .nav-link:before {
 	width: 83%;
 }
 
+.welcome-text {
+	margin-top: 30vh;
+}
+
 .welcome-text h2 {
 	font-size: 70px;
 	font-weight: 700;
