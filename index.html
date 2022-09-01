@@ -242,7 +242,7 @@
       <!-- Video Area End -->
        
        
-      <!-- Choose Area Start 
+      <!-- Choose Area Start
       <section class="pelum-choose-area">
          <div class="container">
             <div class="row">
@@ -609,11 +609,30 @@
             <div class="row">
                <div class="col-lg-12">
                   <div class="subscribe-box wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s">
-                     <form>
+                     
+                     <form action="https://sendy.whitewolftech.com/sendy/subscribe" method="POST" accept-charset="utf-8">
+                        <div class="relative">
+                           <label for="name">Name</label>
+                           <input placeholder="Name" type="text" name="name" id="name"/>
+                        </div>
+                        <div class="relative">
+                           <label for="email">Email</label>
+                           <input placeholder="Email Address" type="email" name="email" id="email"/><br/>
+                        </div>
+                        <div style="display:none;">
+                           <label for="hp">HP</label><br/>
+                           <input type="text" name="hp" id="hp"/>
+                        </div>
+                        <br/>
+                        <input type="hidden" name="list" value="fgYcZPwAWtOYcVwUDudZYg"/>
+                        <input type="hidden" name="subform" value="yes"/>
+                        <input class="pelum-btn" type="submit" name="submit" id="submit"/>
+                     </form>
+                     <!-- <form>
                         <input class="form-control" type="email" placeholder="Email Address Here" />
                         <i class="fa fa-envelope"></i>
                         <button class="pelum-btn" type="submit">Subscribe Now <span></span></button>
-                     </form>
+                     </form> -->
                   </div>
                </div>
             </div>
