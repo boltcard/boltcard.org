@@ -698,7 +698,7 @@ nav.fixed-top .nav-item .nav-link:before {
 	z-index: 1;
 	position: relative;
 	background: #f0f0f0 none repeat scroll 0 0;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .shapes-container {
@@ -789,7 +789,7 @@ nav.fixed-top .nav-item .nav-link:before {
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .pelum-features-area * {
