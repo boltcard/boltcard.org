@@ -78,7 +78,6 @@ p {
 	color: #434a7e;
 	line-height: 26px;
 	font-family: 'Ubuntu', sans-serif;
-	margin: 0;
 	font-weight: 400;
 	letter-spacing: 1px;
 }
@@ -138,42 +137,42 @@ select:focus {
 
 :-moz-placeholder {
 	color: #7c8a97;
-	text-transform: capitalize;
+	
 }
 
 ::-moz-placeholder {
 	color: #7c8a97;
-	text-transform: capitalize;
+	
 }
 
 :-ms-input-placeholder {
 	color: #7c8a97;
-	text-transform: capitalize;
+	
 }
 
 ::-webkit-input-placeholder {
 	color: #7c8a97;
-	text-transform: capitalize;
+	
 }
 
 :-ms-select-placeholder {
 	color: #7c8a97;
-	text-transform: capitalize;
+	
 }
 
 ::-webkit-select-placeholder {
 	color: #7c8a97;
-	text-transform: capitalize;
+	
 }
 
 :-ms-textarea-placeholder {
 	color: #7c8a97;
-	text-transform: capitalize;
+	
 }
 
 ::-webkit-textarea-placeholder {
 	color: #7c8a97;
-	text-transform: capitalize;
+	
 }
 
 tbody,
@@ -273,7 +272,7 @@ li {
 .about-heading h2,
 .choose-heading h2,
 .faq-heading h2 {
-	text-transform: capitalize;
+	
 	font-size: 40px;
 	color: #000;
 	font-family: inherit;
@@ -628,7 +627,7 @@ nav.navbar .nav-item .nav-link {
 	text-decoration: none;
 	padding: 0;
 	font-weight: 600;
-	text-transform: capitalize;
+	
 	font-size: 15px;
 }
 
@@ -859,7 +858,7 @@ nav.fixed-top .nav-item .nav-link:before {
 .feature-text h3 {
 	font-weight: 600;
 	color: #000;
-	text-transform: capitalize;
+	
 	font-size: 23px;
 	margin-bottom: 10px;
 }
@@ -1000,7 +999,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .video-inn h2 {
-	text-transform: capitalize;
+	
 	font-size: 30px;
 	color: #000;
 	font-family: inherit;
@@ -1125,7 +1124,7 @@ nav.fixed-top .nav-item .nav-link:before {
 .choose-text h3 {
 	font-weight: 600;
 	color: #000;
-	text-transform: capitalize;
+	
 	font-size: 20px;
 	margin-bottom: 7px;
 	-webkit-transition: all 0.4s ease 0s;
@@ -1221,7 +1220,7 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .product-text h3 {
 	font-size: 23px;
-	text-transform: capitalize;
+	
 	font-weight: 600;
 	margin-bottom: 10px;
 }
@@ -1288,11 +1287,11 @@ nav.fixed-top .nav-item .nav-link:before {
 .faq_accordian_header>a {
 	display: block;
 	text-align: left;
-	padding: 15px 15px 15px 100px;
+	padding: 15px 15px 15px 120px;
 	background: rgba(71, 119, 244, 0.22);
 	font-size: 15px;
 	color: #000;
-	text-transform: capitalize;
+	
 	font-weight: 600;
 	border: 0px solid rgba(0, 0, 0, 0.08);
 	border-radius: 0;
@@ -1425,7 +1424,7 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .client-title {
 	font-size: 20px;
-	text-transform: capitalize;
+	
 	font-weight: 600;
 	margin-bottom: 3px;
 	color: #000;
@@ -1659,7 +1658,7 @@ nav.fixed-top .nav-item .nav-link:before {
 .contact-info-text h3 {
 	font-weight: 600;
 	color: #fff;
-	text-transform: capitalize;
+	
 	font-size: 20px;
 	margin-bottom: 7px;
 	-webkit-transition: all 0.4s ease 0s;
