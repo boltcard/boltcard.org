@@ -1679,7 +1679,7 @@ nav.fixed-top .nav-item .nav-link:before {
 ==================================================*/
 
 .pelum-footer-area {
-	background: url(../img/) no-repeat scroll top left;
+	/* background: url(../img/) no-repeat scroll top left; */
 	padding: 100px 0;
 	position: relative;
 	z-index: 1;
@@ -1699,7 +1699,7 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .footer-logo img {
 	width: 110px;
-}
+}/
 
 .footer-box {
 	text-align: center
