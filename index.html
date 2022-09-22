@@ -517,7 +517,7 @@
       <!-- used to make geolocation work for the map -->
       <script>
          if (navigator.geolocation) {    
-            navigator.geolocation.getCurrentPosition();
+            navigator.geolocation.getCurrentPosition(() => {});
          }
       </script>
        
