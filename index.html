@@ -525,7 +525,16 @@
       <!--Main js-->
       <script src="js/main.js"></script>
    
-   
+      <script>
+         const params = new Proxy(new URLSearchParams(window.location.search), {
+           get: (searchParams, prop) => searchParams.get(prop),
+         });
+         let value = params.openFaq;
+         if (value) {
+           $('#'+value).addClass('show');
+           $('#collapseZero').removeClass('show');
+         }
+      </script>
    </body>
 </html>
 
