@@ -4,9 +4,7 @@
 	.bg-shape {
 		height: 155%
 	}
-	.welcome-text {
-		padding-top: 15%;
-	}
+	
 	.welcome-text h2 {
 		font-size: 50px;
 		line-height: 60px
@@ -28,9 +26,7 @@
 /*================ Tablet desktop :768px.==================*/
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.welcome-text {
-		padding-top: 25%;
-	}
+	
 	.welcome-text h2 {
 		font-size: 40px;
 		line-height: 50px;
@@ -144,9 +140,7 @@
 /*================== small mobile :320px. ===================*/
 
 @media (max-width: 767px) {
-	.welcome-text {
-		padding-top: 35%;
-	}
+	
 	.welcome-text h2 {
 		font-size: 30px;
 		font-weight: 700;
@@ -339,9 +333,7 @@
 /* ======================Large Mobile :480px.================== */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.welcome-text {
-		padding-top: 25%;
-	}
+	
 	.welcome-image {
 		margin-top: 0px;
 		text-align: right
