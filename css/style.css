@@ -750,6 +750,13 @@ nav.fixed-top .nav-item .nav-link:before {
 	color: #434a7e;
 }
 
+@media (max-width: 767px) {
+
+	.welcome-text {
+		margin-top: 20vh;
+	}
+}
+
 .animation-jump {
 	position: relative;
 	-webkit-animation: animation-jump 2s ease-in-out infinite;
